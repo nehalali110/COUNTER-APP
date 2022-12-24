@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <h1>PEOPLE ENTERED</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button> 
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Previous Enteries: </p>
+    <p id="welcome-el"></p>
+    <button onclick="error()" id="btn">Purchase</button>
+    <p id="errormessage"></p>
+    <br>
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <button onclick="add()">ADD</button>
+    <button onclick="sub()">SUBTRACT</button>
+    <button onclick="prod()">MULTIPLY</button>
+    <button onclick="division()">DIVIDE</button>
+    <br>
+    <span id="result-el">RESULT: </span>
+    <script src="index.js"></script>   
+</body>
+</html>
